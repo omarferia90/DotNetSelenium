@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <RunConfiguration>
+    <EnvironmentVariables> 
+    </EnvironmentVariables> 
+  </RunConfiguration>
+  <TestRunParameters>
+    <!--Variables for TC Executions-->
+    <Parameter name="Env_Variable" value="local"/><!-- local/remote -->
+    <Parameter name="Env_SkipTests" value="false"/><!-- true/false -->
+    <!--Variables for Driver Configuration-->
+    <Parameter name="DataDriverPath" value="C:\AutomationProjects\Data\"/><!---->
+    <Parameter name="DataDriverName" value="AutomationDriver.xlsx"/><!---->
+    <Parameter name="DataDriverSheet" value="TestCases"/><!--  -->
+    <!--Variables for Report Configuration-->
+    <Parameter name="ReportLocation" value="W:\AutomationResults\"/>
+    <Parameter name="ReportName" value="Automated Regression Report"/><!-- Report Name for Extent Reports -->
+    <Parameter name="ProjectName" value="Base DotNet Framework"/><!-- Project Name -->
+    <Parameter name="TestEnvironment" value="VIAONEUAT"/><!-- UAT/QA1/QA2/Demo -->
+    <Parameter name="BrowserName" value="Chrome"/><!-- Chrome/IE -->
+        
+  </TestRunParameters>
+</RunSettings> 
